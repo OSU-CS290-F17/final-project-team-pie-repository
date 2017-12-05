@@ -11,3 +11,7 @@ The website itself is a basic site that shows pictures of pies.
 Originally, I intended to run the server side code on a
 Raspberry Pi 3, but as I lack a monitor and keyboard,
 I decided to simply host the server side code on my laptop.
+
+The website will be designed as follows:
+
+Main page:
