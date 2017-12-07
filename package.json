@@ -1,11 +1,12 @@
 {
   "name": "pie-database",
   "version": "1.0.0",
-  "description": "The final project for cs 290. A visual database of pies. Intended to run off of a Raspberry Pi, for thematic appropreteness.",
+  "description": "The final project for cs 290. A visual database of pies and pie recipies.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "prestart": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,11 @@
   },
   "homepage": "https://github.com/OSU-CS290-F17/final-project-team-pie-repository#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.11"
+    "handlebars": "^4.0.11",
+    "mongodb": "^2.2.33",
+    "node": "^9.2.0"
   }
 }

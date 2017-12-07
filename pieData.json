@@ -18,29 +18,13 @@
         "caption": "Technically, still Raspberry Pie.",
         "photoURL": "https://www.raspberrypi.org/app/uploads/2017/05/Raspberry-Pi-3-1-1619x1080.jpg"
       }
-	]
-  }
-
-  {
-  "pumpkin": {
-    "name": "Pumpkin Pie",
-    "photos": [
-      {
-        "caption": "",
-        "photoURL": ""
-      },
-	  {
-        "caption": "",
-        "photoURL": ""
-      },
-	  {
-        "caption": "",
-        "photoURL": ""
-      },
-      {
-        "caption": "",
-        "photoURL": ""
-      }
+	],
+	"recipies": [
+		{
+			"title": "Raspberry Rubahrb.",
+			"instructions": ""
+		}
+	
 	]
   }
 }
